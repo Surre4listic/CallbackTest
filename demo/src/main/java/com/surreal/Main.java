@@ -2,6 +2,8 @@ package com.surreal;
 
 public class Main {
 
+    public record Person (String name, String address) {}
+
     public static void main(String[] args) {
 
         Reciever reciever = new Reciever();
